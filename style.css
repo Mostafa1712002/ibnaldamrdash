@@ -263,19 +263,20 @@ section {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  /* Monochromatic filter for terminal feel, hover to color */
-  /* Sepia+HueRotate to match Green accent */
-  filter: grayscale(100%) brightness(0.9) sepia(100%) hue-rotate(90deg) saturate(2);
-  transition: all 0.5s ease;
-}
 
-.profile-frame:hover {
-  box-shadow: 0 0 35px rgba(57, 211, 83, 0.5);
-  border-color: var(--accent-neon-green);
+  /* Backend Identity Style */
+  /* High contrast green monochrome initially */
+  filter: grayscale(100%) brightness(0.8) contrast(1.2) sepia(100%) hue-rotate(90deg) saturate(3);
+  mix-blend-mode: luminosity;
+  /* Blends with the background */
+
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .profile-frame:hover .profile-img {
-  filter: grayscale(0%);
+  /* Reveal true colors but keep techy feel on hover */
+  filter: grayscale(20%) contrast(1.1) brightness(1.1);
+  mix-blend-mode: normal;
   transform: scale(1.05);
 }
 
