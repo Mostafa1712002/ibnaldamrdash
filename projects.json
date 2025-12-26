@@ -31,15 +31,6 @@
         "timestamp": "[LIVE]",
         "level": "success",
         "label": "LIVE",
-        "message": "<strong>Alf Sunna</strong> - 1000 Sunnah application",
-        "meta": "Link: <a href='https://alfsunna.midadedev.com' target='_blank'>alfsunna.midadedev.com</a>",
-        "link": "https://alfsunna.midadedev.com"
-    },
-    {
-        "category": "Live Application",
-        "timestamp": "[LIVE]",
-        "level": "success",
-        "label": "LIVE",
         "message": "<strong>Dawa Center</strong> - Dawah center management",
         "meta": "Link: <a href='https://dawa.center' target='_blank'>dawa.center</a>",
         "link": "https://dawa.center"
@@ -103,27 +94,9 @@
         "timestamp": "[LIVE]",
         "level": "success",
         "label": "LIVE",
-        "message": "<strong>Muslim Helper</strong> - Muslim assistance app",
-        "meta": "Link: <a href='https://muslim-helper.midadesoft.com' target='_blank'>muslim-helper.midadesoft.com</a>",
-        "link": "https://muslim-helper.midadesoft.com"
-    },
-    {
-        "category": "Live Application",
-        "timestamp": "[LIVE]",
-        "level": "success",
-        "label": "LIVE",
         "message": "<strong>Ana Wali Qudrat</strong> - Educational platform (Qudrat exam prep)",
         "meta": "Link: <a href='https://anawlqdrat.com' target='_blank'>anawlqdrat.com</a>",
         "link": "https://anawlqdrat.com"
-    },
-    {
-        "category": "Live Application",
-        "timestamp": "[LIVE]",
-        "level": "success",
-        "label": "LIVE",
-        "message": "<strong>Utrujja</strong> - Educational academy",
-        "meta": "Link: <a href='https://new.utrujja.com' target='_blank'>new.utrujja.com</a>",
-        "link": "https://new.utrujja.com"
     },
     {
         "category": "Live Application",
@@ -142,15 +115,6 @@
         "message": "<strong>Assalam Academy</strong> - Islamic academy",
         "meta": "Link: <a href='https://assalamacademi.com' target='_blank'>assalamacademi.com</a>",
         "link": "https://assalamacademi.com"
-    },
-    {
-        "category": "Live Application",
-        "timestamp": "[LIVE]",
-        "level": "success",
-        "label": "LIVE",
-        "message": "<strong>Alfiah NewWaves</strong> - Alfiyyah Ibn Malik learning",
-        "meta": "Link: <a href='https://alfiah.newaves-systems.com' target='_blank'>alfiah.newaves-systems.com</a>",
-        "link": "https://alfiah.newaves-systems.com"
     },
     {
         "category": "Live Application",
