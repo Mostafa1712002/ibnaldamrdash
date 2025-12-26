@@ -269,7 +269,6 @@ section {
   filter: grayscale(100%) brightness(0.8) contrast(1.2) sepia(100%) hue-rotate(90deg) saturate(3);
   mix-blend-mode: luminosity;
   /* Blends with the background */
-  transform: scaleX(-1);
 
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
@@ -283,7 +282,7 @@ section {
   /* Reveal true colors but keep techy feel on hover */
   filter: grayscale(20%) contrast(1.1) brightness(1.1);
   mix-blend-mode: normal;
-  transform: scaleX(-1) scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Scanner Line Animation */
