@@ -157,27 +157,27 @@
         "timestamp": "[LIVE]",
         "level": "info",
         "label": "EDU",
-        "message": "<strong>British Board App</strong>",
-        "meta": "Certification platform<br>Link: <a href='https://app.british-board.org' target='_blank'>app.british-board.org</a>",
-        "link": "https://app.british-board.org"
+        "message": "<strong>Al Rajhi Academy</strong>",
+        "meta": "Educational platform<br>Link: <a href='https://alrajhiacademy.com' target='_blank'>alrajhiacademy.com</a>",
+        "link": "https://alrajhiacademy.com/"
     },
     {
         "category": "Education",
         "timestamp": "[LIVE]",
         "level": "info",
         "label": "EDU",
-        "message": "<strong>American Board App</strong>",
-        "meta": "Certification platform<br>Link: <a href='https://app.american-board.us' target='_blank'>app.american-board.us</a>",
-        "link": "https://app.american-board.us"
+        "message": "<strong>Al Rajhi Competition</strong>",
+        "meta": "Educational competition platform<br>Link: <a href='https://competition.alrajhiacademy.com' target='_blank'>competition.alrajhiacademy.com</a>",
+        "link": "https://competition.alrajhiacademy.com/"
     },
     {
         "category": "Education",
         "timestamp": "[LIVE]",
         "level": "info",
         "label": "EDU",
-        "message": "<strong>British Board Certs</strong>",
-        "meta": "Certificate verification<br>Link: <a href='https://certificates.british-board.org' target='_blank'>certificates.british-board.org</a>",
-        "link": "https://certificates.british-board.org"
+        "message": "<strong>3lameni</strong>",
+        "meta": "Educational platform<br>Link: <a href='https://3lameni.com' target='_blank'>3lameni.com</a>",
+        "link": "https://3lameni.com"
     },
     {
         "category": "Business",
