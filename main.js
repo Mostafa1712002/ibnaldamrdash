@@ -1,5 +1,5 @@
 // Matrix Rain Effect
-const canvas = document.getElementById('matrix-bg');
+const canvas = document.getElementById('bg-canvas');
 if (canvas) {
     const ctx = canvas.getContext('2d');
 

@@ -229,6 +229,15 @@
         "timestamp": "[LIVE]",
         "level": "warn",
         "label": "BIZ",
+        "message": "<strong>Markoum AI Platform</strong>",
+        "meta": "AI Content Analysis & Prompting<br>Link: <a href='https://apps.markoum.com/ar' target='_blank'>apps.markoum.com/ar</a>",
+        "link": "https://apps.markoum.com/ar"
+    },
+    {
+        "category": "Business",
+        "timestamp": "[LIVE]",
+        "level": "warn",
+        "label": "BIZ",
         "message": "<strong>Chat and Decide</strong>",
         "meta": "Decision platform<br>Link: <a href='https://chatanddecide.com' target='_blank'>chatanddecide.com</a>",
         "link": "https://chatanddecide.com"
