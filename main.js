@@ -128,3 +128,55 @@ if (contactForm) {
         alert('Opening your email client to send the packet...');
     });
 }
+
+// Dynamic Project Loader
+async function loadProjects() {
+    const container = document.querySelector('.logs-container');
+    if (!container) return;
+
+    try {
+        const response = await fetch('./projects.json');
+        if (!response.ok) throw new Error('Failed to load projects log');
+        const projects = await response.json();
+
+        container.innerHTML = ''; // Clear loading state
+        let lastCategory = '';
+
+        projects.forEach(proj => {
+            // Category Header
+            if (proj.category && proj.category !== lastCategory) {
+                const header = document.createElement('div');
+                header.className = 'log-entry';
+                header.style.borderLeft = 'none';
+                header.style.paddingLeft = '0';
+                header.style.background = 'transparent';
+                header.innerHTML = `<span style="color: var(--accent-yellow); font-weight: bold;"># === ${proj.category} ===</span>`;
+                container.appendChild(header);
+                lastCategory = proj.category;
+            }
+
+            // Project Entry
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+
+            // Allow HTML in message (for <strong>)
+            let metaHtml = proj.meta;
+            // Ensure links are clickable if present in meta
+
+            entry.innerHTML = `
+                <div class="timestamp">${proj.timestamp}</div>
+                <div class="log-level ${proj.level}">${proj.label}</div>
+                <div class="log-message">${proj.message}</div>
+                <div class="log-meta">${metaHtml}</div>
+            `;
+            container.appendChild(entry);
+        });
+
+    } catch (err) {
+        console.error(err);
+        container.innerHTML = `<div class="log-entry"><span style="color: var(--accent-red)">Error loading projects.log: ${err.message}</span></div>`;
+    }
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', loadProjects);

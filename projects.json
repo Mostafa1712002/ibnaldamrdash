@@ -1,18 +1,641 @@
 [
     {
-        "timestamp": "[2024-PRESENT]",
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
         "level": "success",
         "label": "LIVE",
-        "message": "Developed <strong>Ana Wl Qdrat</strong> - An educational platform.",
-        "meta": "Stack: Laravel, PHP, MySQL",
-        "link": "https://anawlqdrat.com/"
+        "message": "<strong>Rasoulallah</strong> - Prophet Muhammad's biography and teachings",
+        "meta": "Link: <a href='https://rasoulallah.net' target='_blank'>rasoulallah.net</a>",
+        "link": "https://rasoulallah.net"
     },
     {
-        "timestamp": "[2023-2024]",
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Osoul Content</strong> - Islamic content platform",
+        "meta": "Link: <a href='https://osoulcontent.org.sa' target='_blank'>osoulcontent.org.sa</a>",
+        "link": "https://osoulcontent.org.sa"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Taahado</strong> - Islamic commitments platform",
+        "meta": "Link: <a href='https://taahado.com' target='_blank'>taahado.com</a>",
+        "link": "https://taahado.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Alf Sunna</strong> - 1000 Sunnah application",
+        "meta": "Link: <a href='https://alfsunna.midadedev.com' target='_blank'>alfsunna.midadedev.com</a>",
+        "link": "https://alfsunna.midadedev.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Dawa Center</strong> - Dawah center management",
+        "meta": "Link: <a href='https://dawa.center' target='_blank'>dawa.center</a>",
+        "link": "https://dawa.center"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>CoeDawah</strong> - Cooperative dawah organization",
+        "meta": "Link: <a href='https://coedawah.org' target='_blank'>coedawah.org</a>",
+        "link": "https://coedawah.org"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Guide to Sirah</strong> - Prophet's biography guide",
+        "meta": "Link: <a href='https://guidetosirah.com' target='_blank'>guidetosirah.com</a>",
+        "link": "https://guidetosirah.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Islamic Pamphlets</strong> - Islamic publications",
+        "meta": "Link: <a href='https://islamicpamphlets.net' target='_blank'>islamicpamphlets.net</a>",
+        "link": "https://islamicpamphlets.net"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Save Souls</strong> - Dawah outreach platform",
+        "meta": "Link: <a href='https://savesouls.net' target='_blank'>savesouls.net</a>",
+        "link": "https://savesouls.net"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Tadabur</strong> - Quran contemplation",
+        "meta": "Link: <a href='https://tadabur.net' target='_blank'>tadabur.net</a>",
+        "link": "https://tadabur.net"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Abu Hafs</strong> - Islamic educational content",
+        "meta": "Link: <a href='https://abuhafs.info' target='_blank'>abuhafs.info</a>",
+        "link": "https://abuhafs.info"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Muslim Helper</strong> - Muslim assistance app",
+        "meta": "Link: <a href='https://muslim-helper.midadesoft.com' target='_blank'>muslim-helper.midadesoft.com</a>",
+        "link": "https://muslim-helper.midadesoft.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Ana Wali Qudrat</strong> - Educational platform (Qudrat exam prep)",
+        "meta": "Link: <a href='https://anawlqdrat.com' target='_blank'>anawlqdrat.com</a>",
+        "link": "https://anawlqdrat.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Utrujja</strong> - Educational academy",
+        "meta": "Link: <a href='https://new.utrujja.com' target='_blank'>new.utrujja.com</a>",
+        "link": "https://new.utrujja.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Noor International Academy</strong> - International academy",
+        "meta": "Link: <a href='https://academy.noorinternational.net' target='_blank'>academy.noorinternational.net</a>",
+        "link": "https://academy.noorinternational.net"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Assalam Academy</strong> - Islamic academy",
+        "meta": "Link: <a href='https://assalamacademi.com' target='_blank'>assalamacademi.com</a>",
+        "link": "https://assalamacademi.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Alfiah NewWaves</strong> - Alfiyyah Ibn Malik learning",
+        "meta": "Link: <a href='https://alfiah.newaves-systems.com' target='_blank'>alfiah.newaves-systems.com</a>",
+        "link": "https://alfiah.newaves-systems.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Miamin</strong> - Business services (Saudi Arabia)",
+        "meta": "Link: <a href='https://miamin.com.sa' target='_blank'>miamin.com.sa</a>",
+        "link": "https://miamin.com.sa"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Derm Medical</strong> - Medical/Dermatology services",
+        "meta": "Link: <a href='https://dermmedical-sa.com' target='_blank'>dermmedical-sa.com</a>",
+        "link": "https://dermmedical-sa.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Jirabe</strong> - E-commerce platform",
+        "meta": "Link: <a href='https://jirabe.com' target='_blank'>jirabe.com</a>",
+        "link": "https://jirabe.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Markoum Apps</strong> - Applications hub",
+        "meta": "Link: <a href='https://apps.markoum.com' target='_blank'>apps.markoum.com</a>",
+        "link": "https://apps.markoum.com"
+    },
+    {
+        "category": "Live Application",
+        "timestamp": "[LIVE]",
+        "level": "success",
+        "label": "LIVE",
+        "message": "<strong>Whisper Markoum</strong> - AI transcription service",
+        "meta": "Link: <a href='https://whisper.markoum.com' target='_blank'>whisper.markoum.com</a>",
+        "link": "https://whisper.markoum.com"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
         "level": "info",
-        "label": "DOCS",
-        "message": "Engineered documentation systems for <strong>Newaves Systems</strong>.",
-        "meta": "Stack: Laravel, PHP",
-        "link": "https://docs.newaves-systems.com/"
+        "label": "GIT",
+        "message": "<strong>Monsbah</strong> - Laravel + Vue.js",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/monsbah' target='_blank'>monsbah</a>",
+        "link": "https://github.com/Mostafa1712002/monsbah"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Abu Hafs</strong> - Laravel",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/abuhafs' target='_blank'>abuhafs</a>",
+        "link": "https://github.com/Mostafa1712002/abuhafs"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Alfiah</strong> - Laravel + Vue.js",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/alfiah' target='_blank'>alfiah</a>",
+        "link": "https://github.com/Mostafa1712002/alfiah"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Anawlqdrat</strong> - Laravel",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/anawlqdrat' target='_blank'>anawlqdrat</a>",
+        "link": "https://github.com/Mostafa1712002/anawlqdrat"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Miamin</strong> - Laravel",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/miamin' target='_blank'>miamin</a>",
+        "link": "https://github.com/Mostafa1712002/miamin"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Al-Rajhi Academy</strong> - Academy management system",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/al-rajhi' target='_blank'>al-rajhi</a>",
+        "link": "https://github.com/Mostafa1712002/al-rajhi"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Al-Rajhi Competition</strong> - Competition platform backend",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/alrajhiacademy-competition' target='_blank'>alrajhiacademy-competition</a>",
+        "link": "https://github.com/Mostafa1712002/alrajhiacademy-competition"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Al-Rajhi Fe</strong> - Competition platform frontend",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/alrajhiacademy-competition-frontend' target='_blank'>competition-frontend</a>",
+        "link": "https://github.com/Mostafa1712002/alrajhiacademy-competition-frontend"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>View Class</strong> - Online learning platform",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/view-class' target='_blank'>view-class</a>",
+        "link": "https://github.com/Mostafa1712002/view-class"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Jusoor Al-Tarqia</strong> - Educational bridges platform",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/jusooraltarqia' target='_blank'>jusooraltarqia</a>",
+        "link": "https://github.com/Mostafa1712002/jusooraltarqia"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>E-com Dashboard</strong> - Admin dashboard for stores",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/ecommerce-dashboard' target='_blank'>ecommerce-dashboard</a>",
+        "link": "https://github.com/Mostafa1712002/ecommerce-dashboard"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>E-com Store</strong> - Customer-facing storefront",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/ecommerce-store-frontend' target='_blank'>store-frontend</a>",
+        "link": "https://github.com/Mostafa1712002/ecommerce-store-frontend"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Faidi Gold</strong> - Gold jewelry e-commerce",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/faidigold-store-backend' target='_blank'>faidigold-store-backend</a>",
+        "link": "https://github.com/Mostafa1712002/faidigold-store-backend"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Accounts</strong> - Accounting management system",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/accounts' target='_blank'>accounts</a>",
+        "link": "https://github.com/Mostafa1712002/accounts"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>NewWaves Sys</strong> - Business management system",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/newwaves-sys' target='_blank'>newwaves-sys</a>",
+        "link": "https://github.com/Mostafa1712002/newwaves-sys"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>BGR System</strong> - Business system",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/bgr-sys' target='_blank'>bgr-sys</a>",
+        "link": "https://github.com/Mostafa1712002/bgr-sys"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>API TrustKSA</strong> - API integration system",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/api-trustksaa' target='_blank'>api-trustksaa</a>",
+        "link": "https://github.com/Mostafa1712002/api-trustksaa"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Whisper</strong> - AI-powered audio transcription",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/whisper' target='_blank'>whisper</a>",
+        "link": "https://github.com/Mostafa1712002/whisper"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Robotics Tasks</strong> - ROS2 robotics projects",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/robotics-tasks' target='_blank'>robotics-tasks</a>",
+        "link": "https://github.com/Mostafa1712002/robotics-tasks"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Robots Tasks</strong> - Robot programming tasks",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/robots-tasks' target='_blank'>robots-tasks</a>",
+        "link": "https://github.com/Mostafa1712002/robots-tasks"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Aafaq</strong> - General platform",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/aafaq' target='_blank'>aafaq</a>",
+        "link": "https://github.com/Mostafa1712002/aafaq"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>GoPix</strong> - Media management",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/gopix' target='_blank'>gopix</a>",
+        "link": "https://github.com/Mostafa1712002/gopix"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>Euro Soccer</strong> - Sports platform",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/eurosoccer' target='_blank'>eurosoccer</a>",
+        "link": "https://github.com/Mostafa1712002/eurosoccer"
+    },
+    {
+        "category": "GitHub Project",
+        "timestamp": "[OPEN SOURCE]",
+        "level": "info",
+        "label": "GIT",
+        "message": "<strong>American Board</strong> - Medical/Educational app",
+        "meta": "Repo: <a href='https://github.com/Mostafa1712002/american-board-app' target='_blank'>american-board-app</a>",
+        "link": "https://github.com/Mostafa1712002/american-board-app"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>1000 Sunna</strong> - Daily Sunnah practices app",
+        "meta": "Repo: midadedev/1000-sunna",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Allah Names</strong> - 99 Names of Allah app",
+        "meta": "Repo: midadedev/allah-names",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Rasoulallah</strong> - Prophet's biography website",
+        "meta": "Repo: midadedev/rasoulalalh.net",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Baheth</strong> - Islamic search engine",
+        "meta": "Repo: midadedev/baheth",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Balaghani</strong> - Islamic messaging app",
+        "meta": "Repo: midadedev/balaghani",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Sheikh Osama</strong> - Scholar's content platform",
+        "meta": "Repo: midadedev/sheikhosama",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Sira</strong> - Prophet's biography system",
+        "meta": "Repo: midadedev/sira",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Soal</strong> - Question/Answer platform",
+        "meta": "Repo: midadedev/soal",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Marqoum</strong> - Quran application",
+        "meta": "Repo: midadedev/marqoum-new",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>DCenters</strong> - Dawah centers management",
+        "meta": "Repo: midadedev/dcenters",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Muslim Helpers</strong> - Muslim assistance backend",
+        "meta": "Repo: midadedev/muslim-helpers-backend",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Chinese Dawah</strong> - Chinese language dawah",
+        "meta": "Repo: midadedev/chines-dawah",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Chinese 2</strong> - Chinese dawah platform v2",
+        "meta": "Repo: midadedev/chinese2",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Calling Filipino</strong> - Filipino language dawah",
+        "meta": "Repo: midadedev/calling-fil",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Midade Academy</strong> - Academy management system",
+        "meta": "Repo: midadedev/midade-academy",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Utrujja</strong> - Educational platform",
+        "meta": "Repo: midadedev/utrujja",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Al-Rajhi Frontend</strong> - Academy frontend",
+        "meta": "Repo: midadedev/alrajhiacademy-frontend",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Osoul Project</strong> - Islamic content system",
+        "meta": "Repo: midadedev/osoul-project",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Fioll CRM</strong> - Customer relationship management",
+        "meta": "Repo: momaiz_net/fioll-crm",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Chat & Decide</strong> - Decision-making chat app",
+        "meta": "Repo: midadedev/chatanddecide",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Dashboard Chat</strong> - Chat dashboard",
+        "meta": "Repo: midadedev/dashboard-chatanddecide",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>T3ahdo</strong> - Commitments platform",
+        "meta": "Repo: midadedev/t3ahdo",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Basel World</strong> - Business platform",
+        "meta": "Repo: midadedev/basel-world",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Gerab</strong> - E-commerce platform",
+        "meta": "Repo: midadedev/gerab",
+        "link": "#"
+    },
+    {
+        "category": "Bitbucket Project",
+        "timestamp": "[PRIVATE]",
+        "level": "warn",
+        "label": "BIT",
+        "message": "<strong>Midade OCR</strong> - OCR microservice with AI",
+        "meta": "Repo: midadedev/midade-ocr-microservice",
+        "link": "#"
     }
 ]
