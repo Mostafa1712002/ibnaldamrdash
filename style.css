@@ -283,7 +283,7 @@ section {
   /* Reveal true colors but keep techy feel on hover */
   filter: grayscale(20%) contrast(1.1) brightness(1.1);
   mix-blend-mode: normal;
-  transform: scale(1.05);
+  transform: scaleX(-1) scale(1.05);
 }
 
 /* Scanner Line Animation */
