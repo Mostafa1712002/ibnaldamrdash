@@ -94,7 +94,7 @@ async function loadProjects(filter = 'all') {
     container.innerHTML = '<div class="log-entry" style="text-align:center;"><span style="color: var(--accent-cyan)">Loading projects data...</span></div>';
 
     try {
-        const response = await fetch('projects.json');
+        const response = await fetch(`projects.json?v=${Date.now()}`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
 
