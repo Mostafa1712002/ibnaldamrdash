@@ -1,106 +1,63 @@
-// Matrix Rain Animation
-const canvas = document.getElementById('bg-canvas');
-const ctx = canvas.getContext('2d');
+// Matrix Rain Effect
+const canvas = document.getElementById('matrix-bg');
+if (canvas) {
+    const ctx = canvas.getContext('2d');
 
-let width, height;
+    // Set canvas size
+    function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
 
-function resize() {
-    width = canvas.width = window.innerWidth;
-    height = canvas.height = window.innerHeight;
+    // Characters for the matrix rain
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()';
+    const fontSize = 14;
+    const columns = canvas.width / fontSize;
+
+    // Drops array
+    const drops = [];
+    for (let i = 0; i < columns; i++) {
+        drops[i] = 1;
+    }
+
+    // Drawing function
+    function draw() {
+        ctx.fillStyle = 'rgba(13, 17, 23, 0.05)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.fillStyle = '#0f0'; // Neon Green
+        ctx.font = fontSize + 'px monospace';
+
+        for (let i = 0; i < drops.length; i++) {
+            const text = chars[Math.floor(Math.random() * chars.length)];
+            ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+            if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                drops[i] = 0;
+            }
+            drops[i]++;
+        }
+    }
+
+    setInterval(draw, 33);
 }
 
-window.addEventListener('resize', resize);
-resize();
-
-// Configuration
-const cols = Math.floor(width / 20) + 1;
-const ypos = Array(cols).fill(0);
-const chars = '0123456789ABCDEF';
-
-// Render loop
-function matrix() {
-    // Clear with semi-transparent black to create trailing effect
-    ctx.fillStyle = 'rgba(5, 5, 5, 0.05)';
-    ctx.fillRect(0, 0, width, height);
-
-    ctx.fillStyle = '#0f0'; // Basic neon green
-    ctx.font = '15pt monospace';
-
-    ypos.forEach((y, i) => {
-        // Pick random character
-        const text = chars[Math.floor(Math.random() * chars.length)];
-        const x = i * 20;
-
-        // Vary colors for "depth" (some brighter, some dimmer)
-        const isBright = Math.random() > 0.95;
-        ctx.fillStyle = isBright ? '#fff' : (Math.random() > 0.9 ? '#39d353' : '#033a16');
-
-        ctx.fillText(text, x, y);
-
-        // Randomly reset column to top
-        if (y > 100 + Math.random() * 10000) ypos[i] = 0;
-        else ypos[i] = y + 20;
-    });
-}
-
-setInterval(matrix, 50);
-
-// Typing Effect
+// Typing Effect for Hero Text
+const heroText = "Hello, World! I'm Mostafa.";
 const heroElement = document.getElementById('hero-text');
-const phrases = [
-    "BUILDING SCALABLE SYSTEMS",
-    "OPTIMIZING DATA PIPELINES",
-    "DESIGNING ROBUST APIS"
-];
-let phraseIndex = 0;
-let charIndex = 0;
-let isDeleting = false;
-let typeSpeed = 100;
-
-function typeWriter() {
-    const currentPhrase = phrases[phraseIndex];
-
-    if (isDeleting) {
-        heroElement.textContent = currentPhrase.substring(0, charIndex - 1);
-        charIndex--;
-        typeSpeed = 50;
-    } else {
-        heroElement.textContent = currentPhrase.substring(0, charIndex + 1);
-        charIndex++;
-        typeSpeed = 100;
+if (heroElement) {
+    let i = 0;
+    function typeWriter() {
+        if (i < heroText.length) {
+            heroElement.textContent += heroText.charAt(i);
+            i++;
+            setTimeout(typeWriter, 100);
+        }
     }
-
-    // Blinking cursor logic is in CSS, just text here
-
-    if (!isDeleting && charIndex === currentPhrase.length) {
-        // Finished typing phrase
-        isDeleting = true;
-        typeSpeed = 2000; // Pause at end
-    } else if (isDeleting && charIndex === 0) {
-        // Finished deleting
-        isDeleting = false;
-        phraseIndex = (phraseIndex + 1) % phrases.length;
-        typeSpeed = 500; // Pause before next
-    }
-
-    setTimeout(typeWriter, typeSpeed);
+    setTimeout(typeWriter, 500);
 }
-
-// Start typing on load
-document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(typeWriter, 1000);
-});
-
-// "Execute" Button interaction
-const execBtn = document.getElementById('execute-btn');
-/*
-if (execBtn) {
-  execBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' });
-  });
-}
-*/
 
 // Contact Form Handler
 const contactForm = document.getElementById('contact-form');
@@ -129,39 +86,38 @@ if (contactForm) {
     });
 }
 
-// Dynamic Project Loader
-async function loadProjects() {
+// Project Loader
+async function loadProjects(filter = 'all') {
     const container = document.querySelector('.logs-container');
-    if (!container) return;
+
+    // Simple loading state
+    container.innerHTML = '<div class="log-entry" style="text-align:center;"><span style="color: var(--accent-cyan)">Loading projects data...</span></div>';
 
     try {
-        const response = await fetch('./projects.json');
-        if (!response.ok) throw new Error('Failed to load projects log');
-        const projects = await response.json();
+        const response = await fetch('projects.json');
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const data = await response.json();
 
-        container.innerHTML = ''; // Clear loading state
-        let lastCategory = '';
+        // Clear container
+        container.innerHTML = '';
 
-        projects.forEach(proj => {
-            // Category Header
-            if (proj.category && proj.category !== lastCategory) {
-                const header = document.createElement('div');
-                header.className = 'log-entry';
-                header.style.borderLeft = 'none';
-                header.style.paddingLeft = '0';
-                header.style.background = 'transparent';
-                header.innerHTML = `<span style="color: var(--accent-yellow); font-weight: bold;"># === ${proj.category} ===</span>`;
-                container.appendChild(header);
-                lastCategory = proj.category;
-            }
+        // Filter Data
+        const filteredData = filter === 'all'
+            ? data
+            : data.filter(p => p.category === filter);
 
-            // Project Entry
+        if (filteredData.length === 0) {
+            container.innerHTML = '<div class="log-entry" style="text-align:center;"><span style="color: var(--accent-yellow)">No projects found in this category.</span></div>';
+            return;
+        }
+
+        // Render Projects
+        filteredData.forEach(proj => {
             const entry = document.createElement('div');
             entry.className = 'log-entry';
 
             // Allow HTML in message (for <strong>)
             let metaHtml = proj.meta;
-            // Ensure links are clickable if present in meta
 
             entry.innerHTML = `
                 <div class="timestamp">${proj.timestamp}</div>
@@ -179,4 +135,32 @@ async function loadProjects() {
 }
 
 // Initialize
-document.addEventListener('DOMContentLoaded', loadProjects);
+document.addEventListener('DOMContentLoaded', () => {
+    // Initial Load
+    loadProjects('all');
+
+    // Filter Buttons logic
+    const buttons = document.querySelectorAll('.filter-btn');
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active class from all
+            buttons.forEach(b => b.classList.remove('active'));
+            // Add to clicked
+            btn.classList.add('active');
+
+            // value
+            const filterValue = btn.getAttribute('data-filter');
+            loadProjects(filterValue);
+        });
+    });
+
+    // Smooth scroll for nav links (optional if needed)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
