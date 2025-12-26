@@ -220,15 +220,6 @@
         "timestamp": "[LIVE]",
         "level": "warn",
         "label": "BIZ",
-        "message": "<strong>Whisper Markoum</strong>",
-        "meta": "AI Transcription<br>Link: <a href='https://whisper.markoum.com' target='_blank'>whisper.markoum.com</a>",
-        "link": "https://whisper.markoum.com"
-    },
-    {
-        "category": "Business",
-        "timestamp": "[LIVE]",
-        "level": "warn",
-        "label": "BIZ",
         "message": "<strong>Markoum AI Platform</strong>",
         "meta": "AI Content Analysis & Prompting<br>Link: <a href='https://apps.markoum.com/ar' target='_blank'>apps.markoum.com/ar</a>",
         "link": "https://apps.markoum.com/ar"
