@@ -101,4 +101,30 @@ if (execBtn) {
   });
 }
 */
-// Note: Anchor tag href handles simple scrolling, but we can add sound effects or fancy data-loading animations later.
+
+// Contact Form Handler
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const emailInput = document.getElementById('contact-email');
+        const messageInput = document.getElementById('contact-message');
+
+        const email = emailInput.value;
+        const message = messageInput.value;
+
+        // Construct mailto link
+        const subject = "Portfolio Contact: Connection Request";
+        const body = `From: ${email}\n\nMessage:\n${message}`;
+
+        const mailtoLink = `mailto:mostafaibrahim1712002@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        // Open default mail client
+        window.location.href = mailtoLink;
+
+        // Optional: clear form or show success feedback
+        messageInput.value = '';
+        alert('Opening your email client to send the packet...');
+    });
+}
