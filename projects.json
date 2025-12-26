@@ -1,26 +1,18 @@
 [
     {
-        "timestamp": "[2023-PRESENT]",
+        "timestamp": "[2024-PRESENT]",
         "level": "success",
-        "label": "SUCCESS",
-        "message": "Developed scalable <strong>E-Commerce Platforms</strong> handling high traffic volume. Optimized database queries.",
-        "meta": "Stack: Laravel, MySQL, Redis",
-        "link": ""
+        "label": "LIVE",
+        "message": "Developed <strong>Ana Wl Qdrat</strong> - An educational platform.",
+        "meta": "Stack: Laravel, PHP, MySQL",
+        "link": "https://anawlqdrat.com/"
     },
     {
-        "timestamp": "[2022-2023]",
+        "timestamp": "[2023-2024]",
         "level": "info",
-        "label": "INFO",
-        "message": "Built comprehensive <strong>Educational Management Systems (LMS)</strong> for automated student tracking and exams.",
-        "meta": "Stack: PHP, Livewire, Docker",
-        "link": ""
-    },
-    {
-        "timestamp": "[2021-2022]",
-        "level": "warn",
-        "label": "SECURE",
-        "message": "Integrated multiple <strong>Payment Gateways (Saudi Arabia)</strong> ensuring PCI compliance and secure transactions.",
-        "meta": "Stack: REST APIs, Third-party SDKs",
-        "link": ""
+        "label": "DOCS",
+        "message": "Engineered documentation systems for <strong>Newaves Systems</strong>.",
+        "meta": "Stack: Laravel, PHP",
+        "link": "https://docs.newaves-systems.com/"
     }
 ]
