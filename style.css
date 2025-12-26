@@ -273,6 +273,11 @@ section {
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
+.profile-frame:hover {
+  box-shadow: 0 0 35px rgba(57, 211, 83, 0.5);
+  border-color: var(--accent-neon-green);
+}
+
 .profile-frame:hover .profile-img {
   /* Reveal true colors but keep techy feel on hover */
   filter: grayscale(20%) contrast(1.1) brightness(1.1);
