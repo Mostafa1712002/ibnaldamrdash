@@ -358,5 +358,14 @@
         "message": "<strong>Engaz Office</strong>",
         "meta": "Office services<br>Link: <a href='https://engazoffice.online' target='_blank'>engazoffice.online</a>",
         "link": "https://engazoffice.online"
+    },
+    {
+        "category": "Business",
+        "timestamp": "[LIVE]",
+        "level": "warn",
+        "label": "BIZ",
+        "message": "<strong>3rd Mil</strong>",
+        "meta": "Business services<br>Link: <a href='https://3rd-mil.com' target='_blank'>3rd-mil.com</a>",
+        "link": "https://3rd-mil.com"
     }
 ]
